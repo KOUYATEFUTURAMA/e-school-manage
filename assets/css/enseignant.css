@@ -1,0 +1,99 @@
+.img-illustration img {
+    width: 74%;
+    height: auto;
+}
+
+.fonctionnalite-title span::before {
+    content: "";
+    background: #86fe4f;
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 7px;
+    right: 137px;
+    margin-right: 11px;
+}
+
+.fonctionnalite-title span {
+    position: relative;
+    margin-left: 68px;
+    color: #000c00;
+    font-weight: 600;
+}
+
+.fonctionnalite-title h2 {
+    line-height: 39px;
+    font-weight: bold;
+    font-size: 42px;
+    color: #000c00;
+    margin-top: 7px;
+    margin-bottom: 45px;
+}
+
+
+.fonctionnalite-title p {
+    font-size: 21px;
+}
+
+p.bloc-n {
+    font-size: 21px;
+    width: 75%;
+    margin-bottom: 7%;
+}
+
+p.bloc-n::before {
+    content: url('assets/images/plus.png');
+    position: absolute;
+    left: -96px;
+    top: 35%;
+    transform: scale(3.1);
+}
+
+.other-space {
+    background: #f8f8f8;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+p.bloc-n {
+    position: relative;
+}
+
+.bl-dec {
+    margin-left: 20%;
+}
+
+.dec span::before {
+    margin: 0;
+    right: 91px;
+    width: 69%;
+}
+
+.o-btn {
+    margin-bottom: 15px;
+    width: 89%;
+    text-align: left;
+    padding: 10px 7px 9px 31px;
+    height: 100%;
+    display: block;
+    background: #406f2b;
+    border-style: none;
+    color: white;
+    border-radius: 80px;
+    font-weight: 700;
+    position: relative;
+}
+
+.o-btn::after {
+    content: "\f178";
+    position: absolute;
+    right: 5px;
+    border-radius: 57px;
+    top: 4px;
+    width: 35px;
+    background: #a7ff74;
+    color: black;
+    font-family: 'FontAwesome';
+    padding: 7px;
+    height: 35px;
+}

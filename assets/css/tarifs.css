@@ -1,0 +1,207 @@
+section#content {
+    margin-top: 90px;
+}
+
+.title-tarifs::before {
+    content: "";
+    background: #9aff6c;
+    width: 10%;
+    height: 12%;
+    position: absolute;
+    top: -20px;
+}
+
+.title-tarifs {
+    position: relative;
+}
+
+.tarifs1 {
+    background: #1c3e0c;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    border-radius: 0px 140px 0px 0px;
+}
+
+.tarifs1 {
+    background: #406f2b;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    border-radius: 0px 140px 0px 0px;
+}
+
+.price {
+    color: black;
+    background: white;
+    width: 210px;
+    height: 210px;
+    border-radius: 101px;
+    margin-bottom: 20px;
+}
+
+.price p {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+span.devise {
+    position: absolute;
+    top: 140px;
+    left: 233px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+span.t {
+    position: absolute;
+    left: 144px;
+    top: 182px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title-tarifs h2 {
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.tarifs1 ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.tarifs1 ul li {
+    margin-bottom: 15px;
+}
+
+.tarifs1 .btn-valider {
+    background: white;
+    border-style: none;
+    padding: 10px 53px 10px 12px;
+    color: #3e6c27;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.tarifs1 .btn-valider:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(11, 12, 9, 0.25);
+}
+
+.tarifs1 .btn-valider::after {
+    content: "\f178";
+    font-family: 'FontAwesome';
+    position: relative;
+    left: 17%;
+    background: #99ff6b;
+    color: black;
+    padding: 6px;
+    border-radius: 23px;
+}
+
+.btn-- {
+    margin-top: 80px;
+}
+
+.btn-->a {
+    text-decoration: none;
+    color: #3e6c27 !important;
+}
+
+
+/* tarifs 2 */
+
+.tarifs2 {
+    background: #406f2b;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.tarifs2 ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.tarifs2 ul li {
+    margin-bottom: 15px;
+}
+
+.tarifs2 .btn-valider {
+    background: white;
+    border-style: none;
+    padding: 10px 53px 10px 12px;
+    color: #3e6c27;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.tarifs2 .btn-valider:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(11, 12, 9, 0.25);
+}
+
+.tarifs2 .btn-valider::after {
+    content: "\f178";
+    font-family: 'FontAwesome';
+    position: relative;
+    left: 17%;
+    background: #99ff6b;
+    color: black;
+    padding: 6px;
+    border-radius: 23px;
+}
+
+/* tarifs 3 */
+
+.tarifs3 {
+    background: #99ff6b;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    border-radius: 140px 0px 0px 0px;
+}
+
+.tarifs3 ul {
+    padding: 0;
+    font-size: 20px;
+}
+
+.tarifs3 ul li {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.content-tarifs {
+    margin-bottom: 120px;
+    margin-top: 170px;
+}
+
+.tarifs3 .btn-valider {
+    background: white;
+    border-style: none;
+    padding: 10px 53px 10px 12px;
+    color: #3e6c27;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.tarifs3 .btn-valider:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(11, 12, 9, 0.25);
+}
+.tarifs3 .btn-valider::after {
+    content: "\f178";
+    font-family: 'FontAwesome';
+    position: relative;
+    left: 17%;
+    background: #99ff6b;
+    color: black;
+    padding: 6px;
+    border-radius: 23px;
+}

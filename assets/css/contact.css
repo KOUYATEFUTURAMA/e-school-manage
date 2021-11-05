@@ -1,0 +1,142 @@
+.dt ul {
+    list-style: none;
+    padding: 0;
+}
+
+.i-co i {
+    font-size: 45px;
+}
+
+.content-d {
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+.content-d h6 {
+    font-weight: 400;
+}
+
+.content-d ul li {
+    font-weight: 600;
+}
+
+.i-co {
+    display: inline-block;
+    width: 10%;
+}
+
+.content-contact {
+    background: #dee2e6;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.dt {
+    background: white;
+    border-radius: 12px;
+    width: 270px;
+    padding: 18.5px;
+    margin-bottom: 25px;
+}
+
+.mail i {
+    font-size: 28px;
+}
+
+.boite-postale i {
+    font-size: 30px;
+}
+
+.dt i {
+    color: #406f2b;
+}
+
+.formulaire-contact .row {
+    margin-bottom: 25px;
+}
+
+.formulaire-contact input {
+    background: none;
+    border-radius: 10px;
+    border-color: #406f2b;
+}
+
+.formulaire-contact textarea {
+    background: none;
+    border-radius: 10px;
+    border-color: #406f2b;
+}
+
+.formulaire-contact {
+    padding: 17px 34px 27px;
+    background: white;
+    border-radius: 12px;
+}
+
+.formulaire-contact h5 {
+    margin-bottom: 50px;
+}
+
+.formulaire-contact:after {
+    content: "";
+    background: #8aff53;
+    width: 15%;
+    height: 1%;
+    position: absolute;
+    top: 430px;
+}
+
+.btn-valider {
+    background: #406f2b;
+    border-style: none;
+    padding: 10px 53px 10px 23px;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-v {
+    margin-top: 20px;
+}
+
+.btn-valider::after {
+    content: "\f178";
+    font-family: 'FontAwesome';
+    position: relative;
+    left: 49%;
+    background: #99ff6b;
+    color: black;
+    padding: 10px;
+    border-radius: 23px;
+}
+
+.localisation- {
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.title- h2 {
+    font-weight: bold;
+    color: #002100;
+}
+
+.title-::after {
+    content: "";
+    background: #8aff53;
+    width: 8%;
+    height: 21%;
+    position: absolute;
+    top: -20px;
+}
+
+.title-{
+    position: relative;
+}
+
+.maps-localisation iframe {
+    width: 100%;
+}
+
+.localisation- p {
+    margin-bottom: 31px;
+}
+
