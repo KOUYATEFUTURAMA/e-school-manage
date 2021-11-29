@@ -54,7 +54,7 @@ a.navbar-brand img {
 }
 
 .top-navbar {
-    background-color: green !important;
+    background-color: #406f2b !important;
 }
 
 .search-box{
@@ -74,7 +74,7 @@ a.navbar-brand img {
     transition: all .5s ease-in-out;
     background-color: #99FF6B;
     padding-right: 40px;
-    color:#99FF6B;
+    color:black;
 }
 .input-search::placeholder{
     color:rgba(0,0,0);
@@ -167,7 +167,7 @@ button.btn-demo::after {
     font-weight: bold;
     color: #1c3e0c;
     margin-bottom: 50px;
-    margin-top: 300px;
+    /*margin-top: 300px;*/
 }
 
 .title--::before {
@@ -222,7 +222,7 @@ button.btn-demo::after {
     border-radius: 19px;
     box-shadow: 0px 0px 16px 1px #8080802e;
     position: relative;
-    min-height: 160px;
+    min-height: 195px;
 }
 
 .plus-SchoolManage::before {
@@ -235,13 +235,17 @@ button.btn-demo::after {
 }
 
 .content-plus h4 {
-    font-size: 30px;
+    font-size: 26px;
     color: #406f2b;
 }
 
 .content-plus-right h4 {
-    font-size: 30px;
+    font-size: 26px;
     color: #406f2b;
+}
+
+.plus-SchoolManage p {
+    font-size: 16px;
 }
 
 
@@ -359,7 +363,13 @@ button.btn-demo::after {
     border-radius: 20px;
     box-shadow: 0px 0px 16px 1px #8080802e;
     position: relative;
-    min-height: 347px;
+    min-height: 637px;
+}
+
+.arrow-- {
+    position: absolute;
+    bottom: 25px;
+    left: 205px;
 }
 
 .sec::before {
@@ -379,8 +389,8 @@ h3.title {
 
 .section-fonctionnalite {
     height: 1200px;
-    width: 1400px;
-    padding-top: 90px;
+   /* width: 1400px;*/
+    padding-top: 430px;
     padding-bottom: 90px;
 }
 
@@ -558,13 +568,17 @@ h3.title {
     display: inline-block;
     width: 31%;
     position: relative;
-    right: 175px;
+    right: 124px;
+}
+
+.rs-footer img {
+    width: 40%;
 }
 
 .btn- .btn-valider {
     background: #406f2b;
     border-style: none;
-    padding: 6px 53px 5px 12px;
+    padding: 6px 0px 5px 12px;
     color: white;
     border-radius: 20px;
 }
@@ -573,7 +587,7 @@ h3.title {
     content: "\f178";
     font-family: 'FontAwesome';
     position: relative;
-    left: 45%;
+    left: -2%;
     background: #99ff6b;
     color: black;
     padding: 6px;
@@ -607,11 +621,45 @@ a {
 
 .rs-footer ul {
     list-style: none;
+    padding: 0;
 }
 
-.rs-footer {
+li.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dd- {
+    margin-top: 100px;
+}
+
+.sec-title p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dd- ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dd- ul li {
+    margin-bottom: 15px;
+}
+
+.dd- ul li:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    margin-right: 15px;
+}
+
+/*.rs-footer {
     float: right;
     margin-right: 110px;
+}*/
+
+.rs-footer p {
+    font-size: 21px;
 }
 
 .rs-footer ul li {
